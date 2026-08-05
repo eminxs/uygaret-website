@@ -115,8 +115,7 @@ html {
       cursor: pointer;
     }
 
-    .vizyonumuz-text {
-      
+    .vizyonumuz-text {      
       background-color: maroon;
       color: #cac4c4;
       border-radius: 20px;
@@ -128,6 +127,9 @@ html {
       font-weight: bold;
       margin-bottom: 20px;
       margin-top: 5px;
+      display: block;
+      width: 100%;
+      text-align: center;
     }
     .vizyonumuz {
       padding: 15px;
@@ -139,15 +141,6 @@ html {
       
     }
 
-    .vizyonumuz {
-      display: inline-block;
-      padding: 15px;
-      background-color: maroon;
-      color: #cac4c4;
-      border-radius: 30px;
-      margin-left: 20PX;
-      margin-top: 50px;
-    }
 
     .footer {
       background-color: rgb(181, 179, 179);
