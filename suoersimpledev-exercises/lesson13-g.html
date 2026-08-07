@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson-13</title>
+  <style>
+    .tweet {
+      display: flex;
+      flex-direction: row;
+      width: 420px;      
+      font-family: arial;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+    .profile-picture-column {
+      margin-right: 10px;
+
+    }
+    .profile-picture {
+      width: 60px;
+      height: 50px;
+      object-fit: cover;
+      border-radius: 60px;
+    }
+    .tweet-column {
+      margin-top: 3px;
+
+    }
+    .tweet-header {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 3px;
+    }
+    .tweet-author {
+      font-weight: bold;
+    }
+    .tweet-author-handle {
+     font-weight: bold;
+     color: rgb(201, 197, 197);
+    }
+    .tweet-content {
+      font-size: 14px;  
+
+    }
+    .video-priview {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      height: 90px;
+      width: 340px;
+      border-color: grey;
+      border-style: solid;  
+      border: none;    
+      border-radius: 20px;
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.3); 
+    }
+    .thumbnail-column {      
+      background-color: rgb(211 , 206, 206);
+      width: 150px;
+      margin-right: 10px;
+      overflow: hidden; 
+      border-top-left-radius: 20px;   
+      border-bottom-left-radius: 20px;  
+    }
+    .video-info-column {
+
+      padding-top: 20px;     
+      
+
+    }
+    .video-website {
+      color:rgb(211 , 206, 206) ;
+      margin-bottom: 3px;
+      font-weight: bold;
+    }
+    .video-title {
+      font-weight: bold;
+      
+    }
+  </style>
+</head>
+<body>  
+    <div class="tweet ">
+      <div class="profile-picture-column">
+        <img class="profile-picture" src="ayla.jpeg" alt="">
+      </div>
+      <div class="tweet-column">
+        <div class="tweet-header">
+          <div class="tweet-author">supersimple.dev </div>
+          <div class="tweet-author-handle">@SuperSimpleDev</div>
+        </div>       
+        <div class="tweet-content">
+          What's backend web development?A complete overview.New video is up!</div>      
+           <div class="video-priview">
+            <div class="thumbnail-column"></div>
+            <div class="video-info-column">
+              <div class="video-website">youtube.com</div>
+              <div class="video-title">Backend web development - a completeoverview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+</body>
+</html>
