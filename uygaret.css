@@ -253,9 +253,10 @@ html {
         .iletisim-metin .adres, .iletisim-metin .telefon {
           display: block;
           text-align: center;
+          font-size: 9px;
        }
        .company-name {
-        font-size: 12px;
+        font-size: 20px;
         margin-right: 8px;
         height:auto;
        }
