@@ -240,7 +240,8 @@ html {
         .header {
           top: 82px;
           height: auto;
-          grid-template-columns: 2fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding:10px 0px 10px 0px;
         }
         .left-container {
           width: 100%;
@@ -265,6 +266,8 @@ html {
       .right-container {
         gap:10px;
         margin-left:10px;
+        margin-right:10px;
+      
       }
         
     }
