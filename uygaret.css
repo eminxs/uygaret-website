@@ -241,7 +241,7 @@ html {
           top: 82px;
           height: auto;
           grid-template-columns: 1fr 1fr 1fr;
-          padding:10px 0px 10px 0px;
+          
         }
         .left-container {
           width: 100%;
